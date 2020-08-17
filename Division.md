@@ -1,8 +1,8 @@
 # Division
-   
+
 Scenario: Division by 0 when operand 1 is any number
 
-  Given: calculator is ON 
+  Given: calculator is ON
 
   When: When the second Operand is 0
 
@@ -63,7 +63,7 @@ Given: calculator is ON
 
 When: user enters 2 division operators
 
-Then: Convert fraction to decimal and 
+Then: Convert fraction to decimal and
 compute the result of the division
 
 Scenario: Division of multiple numbers (eg: 4/5/6/7)
@@ -74,4 +74,3 @@ When: User enters multiple division operators and operands
 
 Then: Compute result from right to left
 and display the final result only.
-
