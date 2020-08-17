@@ -12,9 +12,9 @@ Scenario: Addition of two negative numbers
   
   Given: the calculator is turned ON
   
-  When: I type two negative numbers 
+  When: I type two negative numbers
   
-  Then: result of the addition is displayed 
+  Then: result of the addition is displayed
   
 Scenario: Addition of fractions
   
@@ -68,13 +68,15 @@ Scenario: 6+* is provided as input?
 
   Given: the calculator is turned ON
   
-  When: wrong input is provided/only one operand is provided instead of two/operators given at wrong places
+  When: wrong input is provided 
+  OR only one operand is provided instead of two 
+  OR operators given at wrong places
   
   Then: Alert the user about the Wrong Input
   
 Scenario:Identify operation
 
-  Given: the calculator is turned ON 
+  Given: the calculator is turned ON
   
   When: an operator is entered
   
