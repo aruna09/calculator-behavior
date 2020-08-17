@@ -14,7 +14,7 @@ Scenario: Addition of two negative numbers
   
   When: I type two negative numbers
   
-  Then: result of the addition is displayed
+  Then: display the result of addition
   
 Scenario: Addition of fractions
   
@@ -22,13 +22,13 @@ Scenario: Addition of fractions
   
   When: I enter two fraction operands
   
-  Then: result of the addition is displayed in fractions/decimals
+  Then: display result of addition in fractions/decimals
 
 Scenario: Addition of positive and negative number
   
   Given: the calculator is ON
   
-  When: one positive and another negative operands are added
+  When: Add one positive and negative operand
   
   Then: Display the result of the addition.
 
@@ -36,7 +36,7 @@ Scenario: Addition of decimals
   
   Given: the calculator is ON
   
-  When: Decimal numbers are added as operands
+  When: Add Decimal numbers
   
   Then: display the result of the addition
   
