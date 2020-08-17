@@ -40,14 +40,13 @@ When: the answer of the division has more than two decimal digits
 
 Then: Display result with two decimal places
 
-Scenario: Multiple times "/" is pressed
+Scenario: User presses "/" more than one time
 
 Given: calculator is ON
 
-When: user enters multiple div operator without
-equivalent no of operands
+When: user enters many division operators
 
-Then: Display result obtained with only one division
+Then: Display result obtained with one division
 
 Scenario: When operand 2 is not present
 
