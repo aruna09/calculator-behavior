@@ -2,7 +2,7 @@
 
 Scenario: Addition of two positive numbers
 
-  Given: the calculator is turned ON
+  Given: the calculator is ON
 
   When: I type in the two numbers and the operator
   
@@ -10,7 +10,7 @@ Scenario: Addition of two positive numbers
 
 Scenario: Addition of two negative numbers
   
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
   When: I type two negative numbers
   
@@ -18,7 +18,7 @@ Scenario: Addition of two negative numbers
   
 Scenario: Addition of fractions
   
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
   When: I enter two fraction operands
   
@@ -26,7 +26,7 @@ Scenario: Addition of fractions
 
 Scenario: Addition of positive and negative number
   
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
   When: one positive and another negative operands are added
   
@@ -34,7 +34,7 @@ Scenario: Addition of positive and negative number
 
 Scenario: Addition of decimals
   
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
   When: Decimal numbers are added as operands
   
@@ -42,49 +42,49 @@ Scenario: Addition of decimals
   
 Scenario: Typing operator more than once
   
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
-  When: multiple operators are given instead of a single operator
+  When: the user enters more than one operator
   
   Then: Alert user about the discrepancy
 
 Scenario: Addition of more than 2 numbers
   
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
-  When: more than two number are added
+  When: the user enters more than two numbers
   
   Then: perform addition on all the provided operands.
 
 Scenario: Adding numbers where the result goes out of range
 
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
-  When: two large numbers are entered as operands.
+  When: the user enters two large numbers operands.
   
   Then: Alert user of "Number too large" and show a shortened version of the result.
 
-Scenario: 6+* is provided as input?
+Scenario: User gives 6+* as input?
 
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
-  When: wrong input is provided
-  OR only one operand is provided instead of two
-  OR operators given at wrong places
+  When: user gives wrong input
+  OR enters only one operand
+  OR enters operators at wrong places
   
   Then: Alert the user about the Wrong Input
   
 Scenario:Identify operation
 
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
-  When: an operator is entered
+  When: user enters an operator
   
   Then: able to identify the operator
 
 Scenario: Converse operation
 
-  Given: the calculator is turned ON
+  Given: the calculator is ON
   
   When: I type operand 2 + operand 1
   
