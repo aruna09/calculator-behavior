@@ -38,7 +38,7 @@ Given: calculator is ON
 
 When: the answer of the division has more than two decimal digits
 
-Then: Display result upto 2 decimal places
+Then: Display result with two decimal places
 
 Scenario: Multiple times "/" is pressed
 
@@ -55,7 +55,7 @@ Given: calculator is ON
 
 When: User enters only one operand
 
-Then: Prompt user to enter Operand2
+Then: Prompt user to enter Operand 2
 
 Scenario: Division by any/all operands being fractions
 
@@ -66,7 +66,7 @@ When: user enters 2 division operators
 Then: Convert fraction to decimal and
 compute the result of the division
 
-Scenario: Division of multiple numbers (eg: 4/5/6/7)
+Scenario: Division of multiple numbers
 
 Given: calculator is ON
 
