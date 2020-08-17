@@ -68,8 +68,8 @@ Scenario: 6+* is provided as input?
 
   Given: the calculator is turned ON
   
-  When: wrong input is provided 
-  OR only one operand is provided instead of two 
+  When: wrong input is provided
+  OR only one operand is provided instead of two
   OR operators given at wrong places
   
   Then: Alert the user about the Wrong Input
