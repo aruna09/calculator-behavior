@@ -69,7 +69,7 @@ Scenario: User gives 6-* as input?
 
 Given: the calculator is ON
 
-When: user gives wrong input 
+When: user gives wrong input
 OR enters one operand
 OR enters operators at wrong places
 
