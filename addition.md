@@ -46,7 +46,7 @@ Scenario: Typing operator more than once
   
   When: multiple operators are given instead of a single operator
   
-  Then: Alert user about the discrepency and allow user to enter again.
+  Then: Alert user about the discrepancy
 
 Scenario: Addition of more than 2 numbers
   
