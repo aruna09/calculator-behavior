@@ -24,7 +24,7 @@ Scenario: Addition of fractions
   
   Then: result of the addition is displayed in fractions/decimals
 
-Scenario: Addition of +ve and -ve number
+Scenario: Addition of positive and negative number
   
   Given: the calculator is turned ON
   
@@ -86,6 +86,6 @@ Scenario: Converse operation
 
   Given: the calculator is turned ON
   
-  When: I type operand2 + operan1
+  When: I type operand 2 + operand 1
   
-  Then: I get the same answer as that of operand1 + operand2
+  Then: I get the same answer as that of operand 1 + operand 2
