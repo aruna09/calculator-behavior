@@ -44,7 +44,7 @@ Scenario: User presses "/" more than one time
 
 Given: calculator is ON
 
-When: user enters many division operators
+When: user enters division operators
 
 Then: Display result obtained with one division
 
@@ -52,7 +52,7 @@ Scenario: When operand 2 is not present
 
 Given: calculator is ON
 
-When: User enters only one operand
+When: User enters one operand
 
 Then: Prompt user to enter Operand 2
 
@@ -65,11 +65,12 @@ When: user enters 2 division operators
 Then: Convert fraction to decimal and
 compute the result of the division
 
-Scenario: Division of multiple numbers
+Scenario: Division of more than one number
 
 Given: calculator is ON
 
-When: User enters multiple division operators and operands
+When: User enters more than two
+division operators and operands
 
 Then: Compute result from right to left
-and display the final result only.
+and display the final result
