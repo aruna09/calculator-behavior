@@ -69,7 +69,7 @@ Scenario: User gives 6+* as input?
   Given: the calculator is ON
   
   When: user gives wrong input
-  OR enters only one operand
+  OR enters one operand
   OR enters operators at wrong places
   
   Then: Alert the user about the Wrong Input
