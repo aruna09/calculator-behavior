@@ -87,7 +87,7 @@ Given:calculator is ON
 
 When: user enters multiply button more than one time
 
-Then: display result with only multiplication
+Then: display result with multiplication
 
 Scenario: Interleaving operators
 
@@ -95,7 +95,7 @@ Given:calculator is ON
 
 When: user enters more than one operator
 
-Then: display result with respect to the last operand
+Then: display result with the last operand
 
 Scenario: Capping the Decimal value
 
